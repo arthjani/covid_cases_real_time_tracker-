@@ -104,3 +104,84 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jface 2 0 2022-03-13 22:56:49.211
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-13 22:56:49.211
+!MESSAGE A conflict occurred for COMMAND+SHIFT+C:
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@bce22f7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22c6f0e9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:08:39.404
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:08:39.412
+!MESSAGE classpath=73 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:08:39.414
+!MESSAGE buffering callback sts4.classpath.xFIHcEKp covid_tracker false 73
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:08:39.414
+!MESSAGE executing callback sts4.classpath.xFIHcEKp 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:08:39.451
+!MESSAGE executing callback sts4.classpath.xFIHcEKp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:12:16.805
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:12:16.822
+!MESSAGE classpath=73 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:12:16.824
+!MESSAGE buffering callback sts4.classpath.xFIHcEKp covid_tracker false 73
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:12:16.825
+!MESSAGE executing callback sts4.classpath.xFIHcEKp 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:12:16.873
+!MESSAGE executing callback sts4.classpath.xFIHcEKp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:17:56.118
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:17:56.124
+!MESSAGE classpath=74 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:17:56.140
+!MESSAGE buffering callback sts4.classpath.xFIHcEKp covid_tracker false 74
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:17:56.141
+!MESSAGE executing callback sts4.classpath.xFIHcEKp 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:17:56.863
+!MESSAGE executing callback sts4.classpath.xFIHcEKp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:17:57.707
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:17:57.722
+!MESSAGE classpath=74 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:17:57.724
+!MESSAGE buffering callback sts4.classpath.xFIHcEKp covid_tracker false 74
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:17:57.724
+!MESSAGE executing callback sts4.classpath.xFIHcEKp 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 23:17:57.743
+!MESSAGE executing callback sts4.classpath.xFIHcEKp SUCCESS [done]
